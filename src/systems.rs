@@ -268,6 +268,7 @@ pub fn process_input_system(
                     key,
                     pressed,
                     modifiers,
+                    repeat: false,
                 };
                 focused_input.events.push(egui_event);
 
